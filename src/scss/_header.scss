@@ -1,10 +1,14 @@
 .header {
   padding-top: 34px;
   background-color: #e5e5e3;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
   &__nav {
     display: flex;
     align-items: center;
-    margin:0 0 0 50px;
+    margin: 0 0 0 50px;
     li {
       margin-right: 40px;
       font-size: 15px;
@@ -33,6 +37,69 @@
       border-radius: 50%;
       font-size: 10px;
       font-weight: bold;
+    }
+  }
+  &__text {
+    margin-top: 340px;
+    h2 {
+      font-size: 60px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #151515;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #151515;
+    }
+  }
+  &__img {
+    display: flex;
+    align-items: flex-end;
+    height: 94vh;
+    img {
+      height: 800px;
+    }
+  }
+  &__proposal {
+    position: absolute;
+    left: 5%;
+    top: 80%;
+  }
+}
+.proposal {
+  display: flex;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 5px 30px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 20px;
+  &__img {
+    margin-right: 10px;
+  }
+  &__text {
+    margin-right: 10px;
+    width: 180px;
+    span {
+      font-size: 11px;
+      font-style: italic;
+      text-align: left;
+      color: #858585;
+    }
+    h3 {
+      margin: 0;
+      font-size: 15px;
+      text-align: left;
+      color: #151515;
     }
   }
 }
