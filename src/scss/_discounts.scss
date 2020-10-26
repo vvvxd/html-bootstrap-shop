@@ -1,0 +1,57 @@
+.discounts {
+  margin: 50px;
+
+  &__item {
+    height: 290px;
+    max-width: 590px;
+    margin-right: 10px;
+  }
+  &__item:last-child{
+    margin-right: 0;
+  }
+}
+.discounts-item-active {
+  a {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+  }
+}
+.discounts-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  span {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: left;
+    color: #151515;
+    margin-bottom: 30px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    color: #151515;
+  }
+}
+.discounts-item-1 {
+  background-image: url('../img/full-img-1311141-removebg-preview.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #cfd1d0;
+}
+.discounts-item-2 {
+  background-image: url('../img/2-layers.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #cfd1d0;
+}
+.discounts-item-3 {
+  background-image: url('../img/150291104-removebg-preview.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #cfd1d0;
+}
