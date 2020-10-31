@@ -1,12 +1,15 @@
 .discounts {
-  margin: 50px;
-
+  padding: 50px;
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
   &__item {
     height: 290px;
-    max-width: 590px;
+    max-width: 30%;
     margin-right: 10px;
   }
-  &__item:last-child{
+  &__item:last-child {
     margin-right: 0;
   }
 }
